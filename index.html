@@ -9,81 +9,83 @@
 </head>
 <body>
 
-<header>
-    <h1>Pinoy Eye Witness in Europe</h1>
-    <p>Your Filipino Voice Across Europe</p>
+<header class="hero-header">
+    <div class="brand">
+        <img src="https://flagcdn.com/ph.svg" class="flag">
+        <h1>Pinoy Eye Witness in Europe</h1>
+        <img src="https://flagcdn.com/un.svg" class="flag">
+    </div>
+
+    <p class="subtitle">
+        Filipino Stories • News • Sports • Community in Europe
+    </p>
+
+    <button onclick="showMessage()">Explore Now</button>
+
+    <p id="message"></p>
 </header>
 
-<nav>
+<nav class="glass-nav">
     <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#videos">Videos</a>
     <a href="#contact">Contact</a>
 </nav>
 
-<section class="hero">
-    <h2>Welcome to Pinoy Eye Witness in Europe</h2>
-
-    <p>
-        Sharing stories, news, travel experiences,
-        and community updates from Filipinos
-        across Europe.
-    </p>
-
-    <button onclick="showMessage()">
-        Learn More
-    </button>
-
-    <p id="message"></p>
-</section>
-
-<section id="about">
+<section id="about" class="section">
     <h2>About Us</h2>
-
-    <p>
-        Pinoy Eye Witness in Europe is dedicated
-        to connecting Filipinos living throughout Europe
-        through news, culture, events, and inspiring stories.
-    </p>
+<section id="about" class="section">
+    <img src="assets/vin.JPEG" alt="Sir Vin" class="profile-img"><h5><p><em>A digital media platform dedicated to sharing authentic stories,news, sports and experiences of Filipinos living across Europe.</em></p></h5>
+    <h5><p><em>
+    Sir Vin is the CEO and he leads the platform’s vision of connecting communities through meaningful 
+    and real-time updates that highlight the Filipino presence, and culture in Europe.
+    </em></p></h5>
 </section>
 
-<section id="services">
-    <h2>Our Services</h2>
-
+<section id="services" class="section grid">
     <div class="card">
         <h3>Community News</h3>
-        <p>Latest updates from Filipino communities.</p>
+        <p>Real-time updates from Filipino communities in Europe.</p>
     </div>
 
     <div class="card">
-        <h3>Travel Features</h3>
-        <p>Explore Europe through Filipino experiences.</p>
+        <h3>Travel Stories</h3>
+        <p>Discover Europe through Filipino experiences and journeys.</p>
     </div>
 
     <div class="card">
-        <h3>Video Coverage</h3>
-        <p>Interviews, events, and documentaries.</p>
+        <h3>Video Reports</h3>
+        <p>YouTube interviews, events, and documentaries.</p>
     </div>
 </section>
 
-<section id="contact">
-    <h2>Contact</h2>
+<section id="videos" class="section">
+    <h2>Featured Video</h2>
 
-    <p>Email: info@pinoyeyewitness.eu</p>
+    <div class="video-box">
+        <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
 
-    <p>
-        Facebook |
-        Instagram |
-        YouTube
-    </p>
+<section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: sirvinpinoy@gmail.com</p>
+
+    <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+    </div>
 </section>
 
 <footer>
-    <p>
-        © 2026 Pinoy Eye Witness in Europe
-    </p>
+    © 2026 Pinoy Eye Witness in Europe
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
